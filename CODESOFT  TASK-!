@@ -41,7 +41,7 @@
       "metadata": {
         "id": "sV9vS8WlNfEq"
       },
-      "execution_count": 16,
+      "execution_count": 28,
       "outputs": []
     },
     {
@@ -58,9 +58,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "VsLlyGlrNlqF",
-        "outputId": "69b0803c-7a21-4ea8-b2e4-6823fd9dc59f"
+        "outputId": "955e9236-c0d5-4c68-e9ab-945d2b0efe5d"
       },
-      "execution_count": 17,
+      "execution_count": 29,
       "outputs": [
         {
           "output_type": "stream",
@@ -139,7 +139,7 @@
       "metadata": {
         "id": "-8V-_kHgNo0d"
       },
-      "execution_count": 18,
+      "execution_count": 30,
       "outputs": []
     },
     {
@@ -155,9 +155,9 @@
           "height": 472
         },
         "id": "dLvIFnZ0N4J0",
-        "outputId": "ba4f3d58-7191-4191-91c1-d015bc0257a6"
+        "outputId": "db5c0a18-cc59-47e2-9bc2-830f4b4e6269"
       },
-      "execution_count": 19,
+      "execution_count": 31,
       "outputs": [
         {
           "output_type": "display_data",
@@ -184,9 +184,9 @@
           "height": 472
         },
         "id": "49lFZ-d_N9SI",
-        "outputId": "713b4a44-9a5d-441a-c8a5-97ab78bf25e4"
+        "outputId": "d75170c8-0716-4865-8674-54028d74770d"
       },
-      "execution_count": 20,
+      "execution_count": 32,
       "outputs": [
         {
           "output_type": "display_data",
@@ -213,9 +213,9 @@
           "height": 472
         },
         "id": "DTiEZ86aOB80",
-        "outputId": "295272fc-cf5d-4c86-c286-a0be08b633fa"
+        "outputId": "279a7570-e7dd-4fac-b554-f27eb4ab3264"
       },
-      "execution_count": 21,
+      "execution_count": 33,
       "outputs": [
         {
           "output_type": "display_data",
@@ -242,9 +242,9 @@
           "height": 472
         },
         "id": "52_svXlFODmr",
-        "outputId": "b53078cf-11b2-49b1-b947-043b0e1548ec"
+        "outputId": "e204e332-cd90-4052-b2ff-c7bfe8b5c1ea"
       },
-      "execution_count": 22,
+      "execution_count": 34,
       "outputs": [
         {
           "output_type": "display_data",
@@ -273,7 +273,7 @@
       "metadata": {
         "id": "rrnLAw4qOIHM"
       },
-      "execution_count": 23,
+      "execution_count": 35,
       "outputs": []
     },
     {
@@ -285,7 +285,7 @@
       "metadata": {
         "id": "hs_zqgFUOMOn"
       },
-      "execution_count": 24,
+      "execution_count": 36,
       "outputs": []
     },
     {
@@ -298,7 +298,7 @@
       "metadata": {
         "id": "qdVNuOTDOWOY"
       },
-      "execution_count": 25,
+      "execution_count": 37,
       "outputs": []
     },
     {
@@ -313,9 +313,9 @@
           "height": 80
         },
         "id": "qseqE7rOOcZ9",
-        "outputId": "cb2df61a-d0ae-4684-c3cf-412ac2811c63"
+        "outputId": "e103cba8-a393-44a7-f7f2-4d20026968e0"
       },
-      "execution_count": 26,
+      "execution_count": 38,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -324,7 +324,7 @@
               "LogisticRegression(max_iter=1000)"
             ],
             "text/html": [
-              "<style>#sk-container-id-2 {\n",
+              "<style>#sk-container-id-3 {\n",
               "  /* Definition of color scheme common for light and dark mode */\n",
               "  --sklearn-color-text: #000;\n",
               "  --sklearn-color-text-muted: #666;\n",
@@ -355,15 +355,15 @@
               "  }\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 {\n",
+              "#sk-container-id-3 {\n",
               "  color: var(--sklearn-color-text);\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 pre {\n",
+              "#sk-container-id-3 pre {\n",
               "  padding: 0;\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 input.sk-hidden--visually {\n",
+              "#sk-container-id-3 input.sk-hidden--visually {\n",
               "  border: 0;\n",
               "  clip: rect(1px 1px 1px 1px);\n",
               "  clip: rect(1px, 1px, 1px, 1px);\n",
@@ -375,7 +375,7 @@
               "  width: 1px;\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 div.sk-dashed-wrapped {\n",
+              "#sk-container-id-3 div.sk-dashed-wrapped {\n",
               "  border: 1px dashed var(--sklearn-color-line);\n",
               "  margin: 0 0.4em 0.5em 0.4em;\n",
               "  box-sizing: border-box;\n",
@@ -383,7 +383,7 @@
               "  background-color: var(--sklearn-color-background);\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 div.sk-container {\n",
+              "#sk-container-id-3 div.sk-container {\n",
               "  /* jupyter's `normalize.less` sets `[hidden] { display: none; }`\n",
               "     but bootstrap.min.css set `[hidden] { display: none !important; }`\n",
               "     so we also need the `!important` here to be able to override the\n",
@@ -393,7 +393,7 @@
               "  position: relative;\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 div.sk-text-repr-fallback {\n",
+              "#sk-container-id-3 div.sk-text-repr-fallback {\n",
               "  display: none;\n",
               "}\n",
               "\n",
@@ -409,14 +409,14 @@
               "\n",
               "/* Parallel-specific style estimator block */\n",
               "\n",
-              "#sk-container-id-2 div.sk-parallel-item::after {\n",
+              "#sk-container-id-3 div.sk-parallel-item::after {\n",
               "  content: \"\";\n",
               "  width: 100%;\n",
               "  border-bottom: 2px solid var(--sklearn-color-text-on-default-background);\n",
               "  flex-grow: 1;\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 div.sk-parallel {\n",
+              "#sk-container-id-3 div.sk-parallel {\n",
               "  display: flex;\n",
               "  align-items: stretch;\n",
               "  justify-content: center;\n",
@@ -424,28 +424,28 @@
               "  position: relative;\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 div.sk-parallel-item {\n",
+              "#sk-container-id-3 div.sk-parallel-item {\n",
               "  display: flex;\n",
               "  flex-direction: column;\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 div.sk-parallel-item:first-child::after {\n",
+              "#sk-container-id-3 div.sk-parallel-item:first-child::after {\n",
               "  align-self: flex-end;\n",
               "  width: 50%;\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 div.sk-parallel-item:last-child::after {\n",
+              "#sk-container-id-3 div.sk-parallel-item:last-child::after {\n",
               "  align-self: flex-start;\n",
               "  width: 50%;\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 div.sk-parallel-item:only-child::after {\n",
+              "#sk-container-id-3 div.sk-parallel-item:only-child::after {\n",
               "  width: 0;\n",
               "}\n",
               "\n",
               "/* Serial-specific style estimator block */\n",
               "\n",
-              "#sk-container-id-2 div.sk-serial {\n",
+              "#sk-container-id-3 div.sk-serial {\n",
               "  display: flex;\n",
               "  flex-direction: column;\n",
               "  align-items: center;\n",
@@ -463,14 +463,14 @@
               "\n",
               "/* Pipeline and ColumnTransformer style (default) */\n",
               "\n",
-              "#sk-container-id-2 div.sk-toggleable {\n",
+              "#sk-container-id-3 div.sk-toggleable {\n",
               "  /* Default theme specific background. It is overwritten whether we have a\n",
               "  specific estimator or a Pipeline/ColumnTransformer */\n",
               "  background-color: var(--sklearn-color-background);\n",
               "}\n",
               "\n",
               "/* Toggleable label */\n",
-              "#sk-container-id-2 label.sk-toggleable__label {\n",
+              "#sk-container-id-3 label.sk-toggleable__label {\n",
               "  cursor: pointer;\n",
               "  display: flex;\n",
               "  width: 100%;\n",
@@ -483,13 +483,13 @@
               "  gap: 0.5em;\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 label.sk-toggleable__label .caption {\n",
+              "#sk-container-id-3 label.sk-toggleable__label .caption {\n",
               "  font-size: 0.6rem;\n",
               "  font-weight: lighter;\n",
               "  color: var(--sklearn-color-text-muted);\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 label.sk-toggleable__label-arrow:before {\n",
+              "#sk-container-id-3 label.sk-toggleable__label-arrow:before {\n",
               "  /* Arrow on the left of the label */\n",
               "  content: \"▸\";\n",
               "  float: left;\n",
@@ -497,13 +497,13 @@
               "  color: var(--sklearn-color-icon);\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 label.sk-toggleable__label-arrow:hover:before {\n",
+              "#sk-container-id-3 label.sk-toggleable__label-arrow:hover:before {\n",
               "  color: var(--sklearn-color-text);\n",
               "}\n",
               "\n",
               "/* Toggleable content - dropdown */\n",
               "\n",
-              "#sk-container-id-2 div.sk-toggleable__content {\n",
+              "#sk-container-id-3 div.sk-toggleable__content {\n",
               "  max-height: 0;\n",
               "  max-width: 0;\n",
               "  overflow: hidden;\n",
@@ -512,12 +512,12 @@
               "  background-color: var(--sklearn-color-unfitted-level-0);\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 div.sk-toggleable__content.fitted {\n",
+              "#sk-container-id-3 div.sk-toggleable__content.fitted {\n",
               "  /* fitted */\n",
               "  background-color: var(--sklearn-color-fitted-level-0);\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 div.sk-toggleable__content pre {\n",
+              "#sk-container-id-3 div.sk-toggleable__content pre {\n",
               "  margin: 0.2em;\n",
               "  border-radius: 0.25em;\n",
               "  color: var(--sklearn-color-text);\n",
@@ -525,79 +525,79 @@
               "  background-color: var(--sklearn-color-unfitted-level-0);\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 div.sk-toggleable__content.fitted pre {\n",
+              "#sk-container-id-3 div.sk-toggleable__content.fitted pre {\n",
               "  /* unfitted */\n",
               "  background-color: var(--sklearn-color-fitted-level-0);\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 input.sk-toggleable__control:checked~div.sk-toggleable__content {\n",
+              "#sk-container-id-3 input.sk-toggleable__control:checked~div.sk-toggleable__content {\n",
               "  /* Expand drop-down */\n",
               "  max-height: 200px;\n",
               "  max-width: 100%;\n",
               "  overflow: auto;\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {\n",
+              "#sk-container-id-3 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {\n",
               "  content: \"▾\";\n",
               "}\n",
               "\n",
               "/* Pipeline/ColumnTransformer-specific style */\n",
               "\n",
-              "#sk-container-id-2 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {\n",
+              "#sk-container-id-3 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {\n",
               "  color: var(--sklearn-color-text);\n",
               "  background-color: var(--sklearn-color-unfitted-level-2);\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 div.sk-label.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {\n",
+              "#sk-container-id-3 div.sk-label.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {\n",
               "  background-color: var(--sklearn-color-fitted-level-2);\n",
               "}\n",
               "\n",
               "/* Estimator-specific style */\n",
               "\n",
               "/* Colorize estimator box */\n",
-              "#sk-container-id-2 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {\n",
+              "#sk-container-id-3 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {\n",
               "  /* unfitted */\n",
               "  background-color: var(--sklearn-color-unfitted-level-2);\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 div.sk-estimator.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {\n",
+              "#sk-container-id-3 div.sk-estimator.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {\n",
               "  /* fitted */\n",
               "  background-color: var(--sklearn-color-fitted-level-2);\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 div.sk-label label.sk-toggleable__label,\n",
-              "#sk-container-id-2 div.sk-label label {\n",
+              "#sk-container-id-3 div.sk-label label.sk-toggleable__label,\n",
+              "#sk-container-id-3 div.sk-label label {\n",
               "  /* The background is the default theme color */\n",
               "  color: var(--sklearn-color-text-on-default-background);\n",
               "}\n",
               "\n",
               "/* On hover, darken the color of the background */\n",
-              "#sk-container-id-2 div.sk-label:hover label.sk-toggleable__label {\n",
+              "#sk-container-id-3 div.sk-label:hover label.sk-toggleable__label {\n",
               "  color: var(--sklearn-color-text);\n",
               "  background-color: var(--sklearn-color-unfitted-level-2);\n",
               "}\n",
               "\n",
               "/* Label box, darken color on hover, fitted */\n",
-              "#sk-container-id-2 div.sk-label.fitted:hover label.sk-toggleable__label.fitted {\n",
+              "#sk-container-id-3 div.sk-label.fitted:hover label.sk-toggleable__label.fitted {\n",
               "  color: var(--sklearn-color-text);\n",
               "  background-color: var(--sklearn-color-fitted-level-2);\n",
               "}\n",
               "\n",
               "/* Estimator label */\n",
               "\n",
-              "#sk-container-id-2 div.sk-label label {\n",
+              "#sk-container-id-3 div.sk-label label {\n",
               "  font-family: monospace;\n",
               "  font-weight: bold;\n",
               "  display: inline-block;\n",
               "  line-height: 1.2em;\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 div.sk-label-container {\n",
+              "#sk-container-id-3 div.sk-label-container {\n",
               "  text-align: center;\n",
               "}\n",
               "\n",
               "/* Estimator-specific */\n",
-              "#sk-container-id-2 div.sk-estimator {\n",
+              "#sk-container-id-3 div.sk-estimator {\n",
               "  font-family: monospace;\n",
               "  border: 1px dotted var(--sklearn-color-border-box);\n",
               "  border-radius: 0.25em;\n",
@@ -607,18 +607,18 @@
               "  background-color: var(--sklearn-color-unfitted-level-0);\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 div.sk-estimator.fitted {\n",
+              "#sk-container-id-3 div.sk-estimator.fitted {\n",
               "  /* fitted */\n",
               "  background-color: var(--sklearn-color-fitted-level-0);\n",
               "}\n",
               "\n",
               "/* on hover */\n",
-              "#sk-container-id-2 div.sk-estimator:hover {\n",
+              "#sk-container-id-3 div.sk-estimator:hover {\n",
               "  /* unfitted */\n",
               "  background-color: var(--sklearn-color-unfitted-level-2);\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 div.sk-estimator.fitted:hover {\n",
+              "#sk-container-id-3 div.sk-estimator.fitted:hover {\n",
               "  /* fitted */\n",
               "  background-color: var(--sklearn-color-fitted-level-2);\n",
               "}\n",
@@ -706,7 +706,7 @@
               "\n",
               "/* \"?\"-specific style due to the `<a>` HTML tag */\n",
               "\n",
-              "#sk-container-id-2 a.estimator_doc_link {\n",
+              "#sk-container-id-3 a.estimator_doc_link {\n",
               "  float: right;\n",
               "  font-size: 1rem;\n",
               "  line-height: 1em;\n",
@@ -721,29 +721,29 @@
               "  border: var(--sklearn-color-unfitted-level-1) 1pt solid;\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 a.estimator_doc_link.fitted {\n",
+              "#sk-container-id-3 a.estimator_doc_link.fitted {\n",
               "  /* fitted */\n",
               "  border: var(--sklearn-color-fitted-level-1) 1pt solid;\n",
               "  color: var(--sklearn-color-fitted-level-1);\n",
               "}\n",
               "\n",
               "/* On hover */\n",
-              "#sk-container-id-2 a.estimator_doc_link:hover {\n",
+              "#sk-container-id-3 a.estimator_doc_link:hover {\n",
               "  /* unfitted */\n",
               "  background-color: var(--sklearn-color-unfitted-level-3);\n",
               "  color: var(--sklearn-color-background);\n",
               "  text-decoration: none;\n",
               "}\n",
               "\n",
-              "#sk-container-id-2 a.estimator_doc_link.fitted:hover {\n",
+              "#sk-container-id-3 a.estimator_doc_link.fitted:hover {\n",
               "  /* fitted */\n",
               "  background-color: var(--sklearn-color-fitted-level-3);\n",
               "}\n",
-              "</style><div id=\"sk-container-id-2\" class=\"sk-top-container\"><div class=\"sk-text-repr-fallback\"><pre>LogisticRegression(max_iter=1000)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class=\"sk-container\" hidden><div class=\"sk-item\"><div class=\"sk-estimator fitted sk-toggleable\"><input class=\"sk-toggleable__control sk-hidden--visually\" id=\"sk-estimator-id-2\" type=\"checkbox\" checked><label for=\"sk-estimator-id-2\" class=\"sk-toggleable__label fitted sk-toggleable__label-arrow\"><div><div>LogisticRegression</div></div><div><a class=\"sk-estimator-doc-link fitted\" rel=\"noreferrer\" target=\"_blank\" href=\"https://scikit-learn.org/1.6/modules/generated/sklearn.linear_model.LogisticRegression.html\">?<span>Documentation for LogisticRegression</span></a><span class=\"sk-estimator-doc-link fitted\">i<span>Fitted</span></span></div></label><div class=\"sk-toggleable__content fitted\"><pre>LogisticRegression(max_iter=1000)</pre></div> </div></div></div></div>"
+              "</style><div id=\"sk-container-id-3\" class=\"sk-top-container\"><div class=\"sk-text-repr-fallback\"><pre>LogisticRegression(max_iter=1000)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class=\"sk-container\" hidden><div class=\"sk-item\"><div class=\"sk-estimator fitted sk-toggleable\"><input class=\"sk-toggleable__control sk-hidden--visually\" id=\"sk-estimator-id-3\" type=\"checkbox\" checked><label for=\"sk-estimator-id-3\" class=\"sk-toggleable__label fitted sk-toggleable__label-arrow\"><div><div>LogisticRegression</div></div><div><a class=\"sk-estimator-doc-link fitted\" rel=\"noreferrer\" target=\"_blank\" href=\"https://scikit-learn.org/1.6/modules/generated/sklearn.linear_model.LogisticRegression.html\">?<span>Documentation for LogisticRegression</span></a><span class=\"sk-estimator-doc-link fitted\">i<span>Fitted</span></span></div></label><div class=\"sk-toggleable__content fitted\"><pre>LogisticRegression(max_iter=1000)</pre></div> </div></div></div></div>"
             ]
           },
           "metadata": {},
-          "execution_count": 26
+          "execution_count": 38
         }
       ]
     },
@@ -760,9 +760,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "yv7dF-uiOkh-",
-        "outputId": "79e0d41d-df35-448c-b868-ae3a80d79c97"
+        "outputId": "3bef1072-c1e0-4412-8223-2f0396d598e0"
       },
-      "execution_count": 27,
+      "execution_count": 39,
       "outputs": [
         {
           "output_type": "stream",
