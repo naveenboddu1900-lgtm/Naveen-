@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Razorpay Clone</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f8ff;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav h2 {
+    color: #2b6cff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+nav button {
+    padding: 8px 15px;
+    border: none;
+    background: #2b6cff;
+    color: white;
+    border-radius: 5px;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    align-items: center;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.hero-text button {
+    padding: 12px 20px;
+    background: #2b6cff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* FEATURES */
+.features {
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* PRICING */
+.pricing {
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.price-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.price {
+    background: white;
+    padding: 30px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #2b6cff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>Razorpay</h2>
+    <ul>
+        <li>Payments</li>
+        <li>Banking</li>
+        <li>Pricing</li>
+        <li>Support</li>
+    </ul>
+    <button>Login</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Power Your Payments with Razorpay</h1>
+        <p>Accept payments, automate payouts, and grow your business with ease.</p>
+        <button onclick="showAlert()">Sign Up Now</button>
+    </div>
+    <img src="https://via.placeholder.com/400" alt="hero">
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+    <h2>Why Choose Us?</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Easy Integration</h3>
+            <p>Quick API setup for your website.</p>
+        </div>
+        <div class="card">
+            <h3>Secure Payments</h3>
+            <p>Industry-leading security standards.</p>
+        </div>
+        <div class="card">
+            <h3>Fast Settlements</h3>
+            <p>Get your money quickly.</p>
+        </div>
+    </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing">
+    <h2>Simple Pricing</h2>
+    <div class="price-cards">
+        <div class="price">
+            <h3>Basic</h3>
+            <p>2% per transaction</p>
+        </div>
+        <div class="price">
+            <h3>Pro</h3>
+            <p>1.5% per transaction</p>
+        </div>
+        <div class="price">
+            <h3>Enterprise</h3>
+            <p>Custom Pricing</p>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Razorpay Clone | Internship Project</p>
+</footer>
+
+<script>
+function showAlert() {
+    alert("Signup feature coming soon!");
+}
+</script>
+
+</body>
+</html>
