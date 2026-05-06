@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spotify Downloader</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background: #1db954;
+            color: white;
+        }
+
+        input {
+            width: 300px;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: black;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Spotify Song Downloader</h2>
+
+<input type="text" id="link" placeholder="Paste Spotify Link">
+<br>
+<button onclick="downloadSong()">Download</button>
+
+<script>
+function downloadSong() {
+    let link = document.getElementById("link").value;
+
+    if(link === "") {
+        alert("Please enter a Spotify link");
+        return;
+    }
+
+    fetch("https://spotify-downloader9.p.rapidapi.com/downloadSong?songId=" + link, {
+        method: "GET",
+        headers: {
+            "X-RapidAPI-Key": "YOUR_API_KEY",
+            "X-RapidAPI-Host": "spotify-downloader9.p.rapidapi.com"
+        }
+    })
+    .then(response => response.json())
+    .then(data => {
+        if(data.success) {
+            window.open(data.data.downloadLink);
+        } else {
+            alert("Download failed!");
+        }
+    })
+    .catch(error => {
+        alert("Error occurred!");
+    });
+}
+</script>
+
+</body>
+</html>
